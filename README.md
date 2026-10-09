@@ -1,8 +1,42 @@
-# IBM-Applied-Data-Science-Capstone-SpaceX-Lovish-Garlani
-This is the final course in the IBM Data Science Professional Certificate as well as the Applied Data Science with Python Specialization. This capstone project course will give you the chance to practice the work that data scientists do in real life when working with datasets.  
+SpaceX Falcon 9 Data Science Capstone
+IBM Applied Data Science Capstone Project focused on analyzing SpaceX Falcon 9 launch data and predicting first-stage landing success.
 
-In this project you will assume the role of a Data Scientist working for a startup intending to compete with SpaceX, and in the process follow the Data Science methodology involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting your results to stakeholders.  
+Project Overview
+This project analyzes historical SpaceX Falcon 9 launch data to understand launch patterns, mission outcomes, payload characteristics, launch-site performance, and factors related to first-stage landing success.
 
-You will be tasked with predicting if the first stage of the SpaceX Falcon 9 rocket will land successfully. With the help of your Data Science findings and models, the competing startup you have been hired by can make more informed bids against SpaceX for a rocket launch.  
+The project follows the complete data science workflow:
 
-In this project, you’ll focus on hands-on work to demonstrate and apply what you have learnt in previous courses.  By successfully completing this Capstone you will have added a project to your data science and machine learning portfolio to showcase to employers.
+Data collection using the SpaceX REST API
+Data collection through web scraping
+Data wrangling and preprocessing
+Exploratory Data Analysis (EDA)
+SQL-based analysis
+Interactive visual analytics
+Folium map visualization
+Plotly Dash dashboard
+Machine learning model development
+Model evaluation and prediction of first-stage landing success
+Project Objectives
+The main objectives of this project are:
+
+Collect SpaceX Falcon 9 launch data from multiple sources.
+Clean and prepare the collected data for analysis.
+Explore launch and payload patterns.
+Analyze launch sites and mission outcomes using SQL.
+Visualize launch-site locations and launch outcomes.
+Build an interactive dashboard for launch analysis.
+Train machine learning models to predict first-stage landing success.
+Evaluate the performance of the predictive models.
+Repository Structure
+spacex-falcon9-data-science-capstone/
+│
+├── 01_SpaceX_Data_Collection_API.ipynb
+├── 02_SpaceX_Data_Collection_Web_Scraping.ipynb
+├── 03_SpaceX_Data_Wrangling.ipynb
+├── 04_SpaceX_EDA_SQL.ipynb
+├── 05_SpaceX_EDA_Visualization.ipynb
+├── 06_SpaceX_Interactive_Visual_Analytics_Folium.ipynb
+├── 07_SpaceX_Dashboard.ipynb
+├── 08_SpaceX_Machine_Learning_Prediction.ipynb
+│
+└── README.md
